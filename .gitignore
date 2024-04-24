@@ -1,0 +1,68 @@
+# Binários
+bin/
+obj/
+
+# Arquivos gerados automaticamente
+*.user
+*.vscode
+*.vs
+*.suo
+*.cache
+*.log
+*.dll
+*.exe
+
+# Arquivos de compilação
+*.pdb
+*.mdb
+*.ipdb
+*.idb
+
+# Pacotes NuGet
+*.nupkg
+packages/
+*.lock.json
+project.lock.json
+npm-debug.log
+yarn-error.log
+
+# Logs e resultados de teste
+*.xml
+*.json
+*.log
+
+# Visual Studio
+.vscode/
+.vs/
+*.sln.docstates
+
+# Ferramentas de compilação
+_ReSharper*
+*.resharper*
+*.dotCover
+*.sw?
+
+# Arquivos de saída da ferramenta de cobertura de código
+*.opencover.xml
+*.coverage
+
+# Ferramentas de nuget
+*.nuget.props
+*.nuget.targets
+
+# Resíduos do editor
+*.[Cc]ache
+*.bak
+*.bak.*
+*.~*
+*.dbmdl
+*.[Pp]ublish.xml
+*.psess
+*.vssscc
+*._*
+*.docstates
+*.dotSettings.user
+
+# Arquivos de configuração de testes
+testresults/
+[Tt]est[Rr]esult*

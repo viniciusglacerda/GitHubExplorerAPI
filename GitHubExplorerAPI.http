@@ -1,0 +1,6 @@
+@GitHubExplorerAPI_HostAddress = http://localhost:5047
+
+GET {{GitHubExplorerAPI_HostAddress}}/api/repositories
+Accept: application/json
+
+###
