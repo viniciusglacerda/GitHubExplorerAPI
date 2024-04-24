@@ -23,8 +23,8 @@ WORKDIR /app
 # Copie os arquivos publicados da fase anterior para o diretório de trabalho do contêiner
 COPY --from=build-env /app/out .
 
-# Exponha a porta 5000
-EXPOSE 5000
+# Exponha a porta 10000
+EXPOSE 10000
 
 # Execute o aplicativo quando o contêiner for iniciado
 ENTRYPOINT ["dotnet", "GitHubExplorerAPI.dll"]
